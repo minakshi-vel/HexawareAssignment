@@ -2,7 +2,7 @@
 package com.organization.leavemanagement.util;
 
 import com.organization.leavemanagement.exception.InvalidLeaveRequestException;
-import com.organization.leavemanagement.model1.LeaveType;
+import com.organization.leavemanagement.model.LeaveType;
 
 public class ValidationUtil {
     public static void validateString(String val, String field) {

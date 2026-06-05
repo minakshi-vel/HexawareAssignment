@@ -1,7 +1,7 @@
 // EmployeeRepository.java
 package com.organization.leavemanagement.repository;
 
-import com.organization.leavemanagement.model1.Employee;
+import com.organization.leavemanagement.model.Employee;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
