@@ -1,0 +1,28 @@
+package com.organization.studentanalytics.model;
+
+public class Student {
+    private int studentId;
+    private String studentName;
+    private String course;
+    private int marks;
+    private boolean passed;
+
+    public Student(int studentId, String studentName, String course, int marks, boolean passed) {
+        this.studentId = studentId;
+        this.studentName = studentName;
+        this.course = course;
+        this.marks = marks;
+        this.passed = passed;
+    }
+
+    public int getStudentId() { return studentId; }
+    public String getStudentName() { return studentName; }
+    public String getCourse() { return course; }
+    public int getMarks() { return marks; }
+    public boolean isPassed() { return passed; }
+
+    @Override
+    public String toString() { return studentName; }
+    
+    public String toDetailString() { return studentName + " – " + marks; }
+}
